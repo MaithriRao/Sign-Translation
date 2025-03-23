@@ -27,19 +27,3 @@ This project focuses on developing an NLP system for automated translation betwe
 * SentencePiece
 * NLLB Model
 * LLaMA3.1
-
-## Usage
-
-(If applicable, add instructions on how to run or use the project. If not, you can omit this section.)
-
-## Contributing
-
-(If applicable, add information on how others can contribute to the project. If not, you can omit this section.)
-
-## License
-
-(If applicable, add license information. If not, you can omit this section.)
-
-## Contact
-
-(Optional: Add your contact information.)
