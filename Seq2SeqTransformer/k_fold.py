@@ -82,11 +82,7 @@ def train_and_evaluate(fold, ds, tokenization, augment):
 
     NUM_EPOCHS = 1000
     loss_graf = []
-    ## TODO : check if this is correct for when its sourc-only and src-tgt
-    # 
-    # 
-    # 
-    #     
+
     transformer = model.create_transformer()
     transformer = transformer.to(device)
 
