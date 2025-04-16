@@ -14,7 +14,7 @@ from enum import Enum, verify, UNIQUE
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 checkpoint = 'facebook/nllb-200-distilled-600M' #for nllb
-tokenizer = AutoTokenizer.from_pretrained(checkpoint)
+tokenizer = AutoTokenizer.from_pretrained(checkpoint, src_lang ="deu_Latn", tgt_lang="deu_Latn")
 
 @verify(UNIQUE)
 class Translation(Enum):
