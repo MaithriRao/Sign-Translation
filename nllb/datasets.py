@@ -38,7 +38,7 @@ text_directories = [
 ]
 
 checkpoint = 'facebook/nllb-200-distilled-600M' #for nllb
-tokenizer = AutoTokenizer.from_pretrained(checkpoint)
+tokenizer = AutoTokenizer.from_pretrained(checkpoint, src_lang ="deu_Latn", tgt_lang="deu_Latn")
 
 def read():
     data_list_only_original = []
